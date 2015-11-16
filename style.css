@@ -205,4 +205,44 @@
 	border: 0px solid #E2E2E2;
 
 }
+	.sectionMain {
+	background-color: rgb(34, 55, 66);
+	
+	border: 0px solid rgb(34, 55, 66);
+
+}
+	 .xenOverlay.memberCard .userInfo h3 a,.xenOverlay.memberCard .userLinks a{
+ color:#61ACB9;
+  
+ }
+	.discussionList .discussionListItem.sticky {
+	background-color: #395565;
+	border-color: #000;
+}
+	.discussionListItems .unread .title a {
+	font-weight: bold;
+	color: #75909E;
+}
+	.discussionListItem {
+	background-color: #395565;
+}
+	.discussionListItems .unread .lastPostInfo .username {
+	font-weight: bold;
+	color: #C9D5E4;
+}
+	.discussionListItem .posterAvatar, .discussionListItem .stats {
+	background-color: #395565;
+}
+	.discussionListItem .stats dl {
+	padding: 0px 10px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+	.sectionFooter {
+
+	background-color: #75909E;
+
+	border-bottom: 0px solid #E2E2E2;
+
+}
 }
