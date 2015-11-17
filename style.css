@@ -1,248 +1,209 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document domain("minecraft.fr") {
 	#content .pageContent {
-		background-color: #223742;
+			background-color:#223742;
 	}
-	
-	.nodeList .categoryForumNodeInfo, .nodeList .forumNodeInfo, .nodeList .pageNodeInfo, .nodeList .linkNodeInfo {
-		background-color: #223742;
+		.nodeList .categoryForumNodeInfo,.nodeList .forumNodeInfo,.nodeList .pageNodeInfo,.nodeList .linkNodeInfo {
+			background-color:#223742;
 	}
-	
-	.node.level_2 .nodeInfo {
-		border-top: 2px solid #20333D;
+		.node.level_2 .nodeInfo {
+			border-top:2px solid #20333D;
 	}
-	
-	.forum_list .nodeList .nodeList, .forum_view .nodeList, .category_view .nodeList, .watch_forums .nodeList {
-		border-color: -moz-use-text-color #20333D #20333D;
+		.forum_list .nodeList .nodeList,.forum_view .nodeList,.category_view .nodeList,.watch_forums .nodeList {
+			border-color:-moz-use-text-color #20333D #20333D;
 	}
-	
-	.sidebar .section .secondaryContent {
-		border: 2px solid #2A424D;
+		.sidebar .section .secondaryContent {
+			border:2px solid #2A424D;
 	}
-	
-	.hasFlexbox .sidebar .visitorPanel .secondaryContent {
-		background-color: #1F333D;
+		.hasFlexbox .sidebar .visitorPanel .secondaryContent {
+			background-color:#1F333D;
 	}
-	
-	html {
-	background-color: #223742;
-	overflow-y: scroll !important;
-}
-	
-	.node .nodeText .nodeTitle a, .subForumList .nodeTitle a {
-	/* color: inherit; */
-}
-	
-	.node .unread .nodeText .nodeTitle {
-	font-weight: bold;
-	color: #ACD2E5;
-}
-	
-
-	
-	body {
-	font-size: 13px;
-	font-family: "Trebuchet MS",Helvetica,Arial,sans-serif;
-	color: #78A6BD;
-	word-wrap: break-word;
-	line-height: 1.27;
-}
-	
-.node .subForumList .unread .nodeTitle {
-	font-weight: bold;
-	color: #78A6BD;
-}
-	
-	.node .unread .nodeIcon.hasGlyph {
-	color: #61ACB9;
-}
-	
-	.secondaryContent {
-	background-color: #223742;
-	padding: 8px;
-}
-	
-	#SignupButton .inner {
-
-	color: #78A6BD;
-	background-color: #395565;
-	
-}
-	
-	#taigachat_box {
-
-	background: #304956 none repeat scroll 0% 0%;
-}
-	
-	.sidebar .section .primaryContent h3, .sidebar .section .secondaryContent h3, .profilePage .mast .section.infoBlock h3 {
-
-	color: #61ACB9;
-	background-color: #223742;
-	
-	border: 0px solid #A54545;
-
-}
-	.sidebar .section .primaryContent h3 a, .sidebar .section .secondaryContent h3 a {
-	
-	font-family: Lato,Helvetica,sans-serif;
-	color: #78A6BD;
-}
-	
-	#taigachat_sidebar h3 blockquote {
-	
-	color: #78A6BD;
-	
-}
+		html {
+		background-color:#223742;
+		overflow-y:scroll !important;
+	}
+		.node .nodeText .nodeTitle a,.subForumList .nodeTitle a {
+		/* color:inherit;*/
+	}
+		.node .unread .nodeText .nodeTitle {
+		font-weight:bold;
+		color:#ACD2E5;
+	}
+			body {
+		font-size:13px;
+		font-family:"Trebuchet MS",Helvetica,Arial,sans-serif;
+		color:#78A6BD;
+		word-wrap:break-word;
+		line-height:1.27;
+	}
+	.node .subForumList .unread .nodeTitle {
+		font-weight:bold;
+		color:#78A6BD;
+	}
+		.node .unread .nodeIcon.hasGlyph {
+		color:#61ACB9;
+	}
+		.secondaryContent {
+		background-color:#223742;
+		padding:8px;
+	}
+		#SignupButton .inner {
+		color:#78A6BD;
+		background-color:#395565;
+	}
+		#taigachat_box {
+		background:#304956 none repeat scroll 0% 0%;
+	}
+		.sidebar .section .primaryContent h3,.sidebar .section .secondaryContent h3,.profilePage .mast .section.infoBlock h3 {
+		color:#61ACB9;
+		background-color:#223742;
+			border:0px solid #A54545;
+	}
+	.sidebar .section .primaryContent h3 a,.sidebar .section .secondaryContent h3 a {
+			font-family:Lato,Helvetica,sans-serif;
+		color:#78A6BD;
+	}
+		#taigachat_sidebar h3 blockquote {
+			color:#78A6BD;
+	}
 	.breadcrumb {
-	
-	color: rgb(47, 38, 38);
-	background-color: #395565;
-	
-	
-}
-	
-	.breadcrumb .crust a.crumb {
-
-	color: #535353;
-	
-	background-color: #75909E;
-
-}
+			color:rgb(47,38,38);
+		background-color:#395565;
+	}
+		.breadcrumb .crust a.crumb {
+		color:#535353;
+			background-color:#75909E;
+	}
 	.breadcrumb .crust .arrow span {
-	
-	border-color: transparent #000 transparent #75909E;
-	-moz-border-right-colors: #FFF;
-
-}
+			border-color:transparent #000 transparent #75909E;
+		-moz-border-right-colors:#FFF;
+	}
 	.navTabs .navTab.selected .tabLinks {
-	background-color: #223742;
-
-}
+		background-color:#223742;
+	}
 	#headerMover #header {
-	
-	background: transparent linear-gradient(to bottom, #223742 0px, #223742 100%) repeat scroll 0% 0%;
-
-}
-
+			background:transparent linear-gradient(to bottom,#223742 0px,#223742 100%) repeat scroll 0% 0%;
+	}
 	#logoBlock .pageContent {
-	box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.15);
-	background: transparent linear-gradient(to bottom, #395565 0px, #395565 100%) repeat scroll 0% 0%;
-}
-
+		box-shadow:0px 0px 6px 1px rgba(0,0,0,0.15);
+		background:transparent linear-gradient(to bottom,#395565 0px,#395565 100%) repeat scroll 0% 0%;
+	}
 	.primaryContent {
-	background-color: #395565;
-	padding: 0px;
-		
-}
-	
-	#taigachat_box {
-	
-	border: 0px solid #F0F0F0;
-	padding: 5px;
-	
-
-}
-	
-	.username .style49 {
-	color: #ed1c1c;
-}
-	
-	.primaryContent a {
-	color: #66a3c1;
-}
+		background-color:#395565;
+		padding:0px;
+	}
+		#taigachat_box {
+			border:0px solid #F0F0F0;
+		padding:5px;
+	}
+		.username .style49 {
+		color:#ed1c1c;
+	}
+		.primaryContent a {
+		color:#66a3c1;
+	}
 	#userBar .navTabs {
-	background-color: #75909E;
-
-}
-	
-	.uix_slogan {
-	
-	color: #75909E;
-
-}
-	
-	.navTabs {
-	
-	background-color: rgb(34, 55, 66);
-}
+		background-color:#75909E;
+	}
+		.uix_slogan {
+			color:#75909E;
+	}
+		.navTabs {
+			background-color:rgb(34,55,66);
+	}
 	.sidebar .visitorPanel .username {
-	
-	color: #75909E;
-}
+			color:#75909E;
+	}
 	body {
-	
-	background-color: #000;
-	
-}
+			background-color:#000;
+	}
 	.Menu .secondaryContent {
-	background-color: #395565;
-}
+		background-color:#395565;
+	}
 	.navTabs .navTab.selected .navLink {
-	
-	color: #1A2634;
-	background-color: #395565;
-	border: 0px solid #E2E2E2;
-}
+			color:#1A2634;
+		background-color:#395565;
+		border:0px solid #E2E2E2;
+	}
 	.footer .pageContent {
-
-	background-color: #395565;
-
-	border-width: 0px 0px 0px;
-
-}
+		background-color:#395565;
+		border-width:0px 0px 0px;
+	}
 	.taigachat_motd {
-	border: 0px solid #FAFAFA;
-
-}
+		border:0px solid #FAFAFA;
+	}
 	#content .pageContent {
-
-	border: 0px solid #E2E2E2;
-
-}
+		border:0px solid #E2E2E2;
+	}
 	.breadcrumb {
-
-	border: 0px solid #E2E2E2;
-
-}
+		border:0px solid #E2E2E2;
+	}
 	.sectionMain {
-	background-color: rgb(34, 55, 66);
-	
-	border: 0px solid rgb(34, 55, 66);
-
-}
-	 .xenOverlay.memberCard .userInfo h3 a,.xenOverlay.memberCard .userLinks a{
- color:#61ACB9;
-  
- }
+		background-color:rgb(34,55,66);
+			border:0px solid rgb(34,55,66);
+	}
+	 .xenOverlay.memberCard .userInfo h3 a,.xenOverlay.memberCard .userLinks a {
+		color:#61ACB9;
+	}
 	.discussionList .discussionListItem.sticky {
-	background-color: #395565;
-	border-color: #000;
-}
+		background-color:#395565;
+		border-color:#000;
+	}
 	.discussionListItems .unread .title a {
-	font-weight: bold;
-	color: #75909E;
-}
+		font-weight:bold;
+		color:#75909E;
+	}
 	.discussionListItem {
-	background-color: #395565;
-}
+		background-color:#395565;
+			border-bottom:1px solid #000;
+	}
 	.discussionListItems .unread .lastPostInfo .username {
-	font-weight: bold;
-	color: #C9D5E4;
-}
-	.discussionListItem .posterAvatar, .discussionListItem .stats {
-	background-color: #395565;
-}
+		font-weight:bold;
+		color:#C9D5E4;
+	}
+	.discussionListItem .posterAvatar,.discussionListItem .stats {
+		background-color:#395565;
+	}
 	.discussionListItem .stats dl {
-	padding: 0px 10px;
-	border-left: 1px solid #000;
-	border-right: 1px solid #000;
-}
+		padding:0px 10px;
+		border-left:1px solid #000;
+		border-right:1px solid #000;
+	}
 	.sectionFooter {
-
-	background-color: #75909E;
-
-	border-bottom: 0px solid #E2E2E2;
-
-}
+		background-color:#75909E;
+		border-bottom:0px solid #E2E2E2;
+	}
+	.messageList .message {
+		background-color:#395565;
+		border:0px solid #E2E2E2;
+	}
+		.message .likesSummary {
+		color:#E3E3E3;
+		background-color:#395565;
+	}
+	.messageUserBlock div.avatarHolder {
+		background-color:#344D5D;
+	}
+	.bbCodeQuote .attribution {
+		background-color:#344D5D;
+		color:#D9DFE3;
+	}
+	.bbCodeQuote .quoteContainer {
+			background-color:#344D5D;
+	}
+	.messageUserBlock {
+		border:0px solid #000;
+	}
+	.messageUserBlock h3.userText {
+		background-color:#344D5D;
+	}
+	.messageUserBlock .extraUserInfo {
+			background-color:#344D5D;
+	}
+	.messageUserBlock .arrow span {
+			-moz-border-left-colors:#344D5D;
+	}
+	.userBanner.bannerStaff {
+		background: #DE8E15 none repeat scroll 0% 0%;
+	}
 }
