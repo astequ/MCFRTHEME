@@ -82,14 +82,15 @@
 		background-color:#223742;
 	}
 	#headerMover #header {
-			background:transparent linear-gradient(to bottom,#223742 0px,#223742 100%) repeat scroll 0% 0%;
+			background:transparent linear-gradient(to bottom,transparent 0px,transparent 100%) repeat scroll 0% 0%;
+		box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.6);
 	}
 	#logoBlock .pageContent {
 		box-shadow:0px 0px 6px 1px rgba(0,0,0,0.15);
 		background:transparent linear-gradient(to bottom,#395565 0px,#395565 100%) repeat scroll 0% 0%;
 	}
 	.primaryContent {
-		background-color:#395565;
+		background-color: #395565;
 		padding:0px;
 	}
 		#taigachat_box {
@@ -99,9 +100,9 @@
 		.username .style49 {
 		color:#ed1c1c;
 	}
-		.primaryContent a {
-		color:#66a3c1;
-	}
+		/*	.primaryContent a {
+	color:#ACD2E5;
+	}*/
 	#userBar .navTabs {
 		background-color:#75909E;
 	}
@@ -115,7 +116,9 @@
 			color:#75909E;
 	}
 	body {
-			background-color:#000;
+
+			background:url("https://web.archive.org/web/20140330184831/http://minecraft.fr/forum/styles/minecraftv2/xenforo/fond/BG.png") repeat scroll 0% 0%;
+	
 	}
 	.Menu .secondaryContent {
 		background-color:#395565;
@@ -146,7 +149,7 @@
 		color:#61ACB9;
 	}
 	.discussionList .discussionListItem.sticky {
-		background-color:#395565;
+		background-color:#223742;
 		border-color:#000;
 	}
 	.discussionListItems .unread .title a {
@@ -154,7 +157,7 @@
 		color:#75909E;
 	}
 	.discussionListItem {
-		background-color:#395565;
+		background-color:#223742;
 			border-bottom:1px solid #000;
 	}
 	.discussionListItems .unread .lastPostInfo .username {
@@ -162,8 +165,9 @@
 		color:#C9D5E4;
 	}
 	.discussionListItem .posterAvatar,.discussionListItem .stats {
-		background-color:#395565;
+		background-color:#223742;
 	}
+	
 	.discussionListItem .stats dl {
 		padding:0px 10px;
 		border-left:1px solid #000;
@@ -206,4 +210,25 @@
 	.userBanner.bannerStaff {
 		background: #DE8E15 none repeat scroll 0% 0%;
 	}
+	.discussionList .sectionHeaders {
+
+	background-color: #2A414C;
+
+}
+	a:link, a:visited {
+
+	color: #2A414C;
+}
+	
+	
+	
+#navigation {
+	background: transparent none repeat scroll 0% 0%;
+}	
+	
+	.pollBlock .question .questionText{
+color:#61ACB9;
+
+}
+	
 }
