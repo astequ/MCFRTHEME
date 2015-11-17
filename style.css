@@ -189,7 +189,7 @@
         border-bottom: 0px solid #E2E2E2;
     }
     .messageList .message {
-        background-color: #395565;
+        background-color: #283E49;
         border: 0px solid #E2E2E2;
     }
     .message .likesSummary {
@@ -259,4 +259,57 @@
     .node.level_2:first-child .nodeInfo {
         border-radius: 0px 0px 0px 0px;
     }
+	 .larger.textHeading {
+				color:lightblue;
+}
+	
+	.uix_icon-sitemap {
+color:lightblue;
+}
+	
+	.forum_list .nodeList .nodeList, .forum_view .nodeList, .category_view .nodeList, .watch_forums .nodeList {
+	background: transparent none repeat scroll 0% 0%;
+	
+	border-radius: 0px;
+}
+#QuickSearch .formPopup .secondaryControls {
+	
+	background: #2A424D none repeat scroll 0% 0%;
+	color: #C8C8C8;
+
+}
+	.messageUserBlock .arrow {
+
+	-moz-border-left-colors: lightblue;
+}
+	.PageNav a.currentPage {
+	color: #000;
+	background-color: #78A6BD;
+	border-color: #2B2E4A;
+	position: relative;
+}
+	.PageNav a {
+
+
+	background-color: #2A424D;
+	
+	border: 0px solid rgb(236, 241, 245);
+}
+	.message .newIndicator {
+	
+	color: #0E0E0E;
+	background-color: #78A6BD;
+	
+}
+	#uix_footer_columns .pageContent {
+	
+	background-color: #223742;
+	
+}
+	
+	.adCopyrightNoticeStyle:after{
+content: " Thème Bleu Sombre 2.0 par CobaltTeam, Baldriksen, Astequ, Ruvaak, Pyraah, Diagamma et ajen003.";
+text-decoration: inherit ;
+color: inherit ;
+}
 }
