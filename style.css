@@ -197,7 +197,7 @@
         background-color: #395565;
     }
     .messageUserBlock div.avatarHolder {
-        background-color: #344D5D;
+        background-color: #283E49;
         border-radius: 0px 0px 0px 0px;
     }
     .bbCodeQuote .attribution {
@@ -217,7 +217,7 @@
         background-color: #344D5D;
     }
     .messageUserBlock .arrow span {
-        -moz-border-left-colors: #344D5D;
+        -moz-border-left-colors: #283E49;
     }
     .userBanner.bannerStaff {
         background: #DE8E15 none repeat scroll 0% 0%;
@@ -313,6 +313,10 @@ text-decoration: inherit ;
 color: inherit ;
 }
 	#uix_jumpToFixed {
+background-color:lightblue;
+}
+	.message .messageMeta .control, .footer .choosers a{
+border: 0px solid green;
 background-color:lightblue;
 }
 }
