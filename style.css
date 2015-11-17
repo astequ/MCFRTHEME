@@ -318,5 +318,6 @@ background-color:lightblue;
 	.message .messageMeta .control, .footer .choosers a{
 border: 0px solid green;
 background-color:lightblue;
+color:#000;
 }
 }
