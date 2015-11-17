@@ -312,4 +312,7 @@ content: " Thème Bleu Sombre 2.0 par CobaltTeam, Baldriksen, Astequ, Ruvaak, Py
 text-decoration: inherit ;
 color: inherit ;
 }
+	#uix_jumpToFixed {
+background-color:lightblue;
+}
 }
